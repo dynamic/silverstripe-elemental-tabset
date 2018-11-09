@@ -1,0 +1,4 @@
+<?php
+
+define('SILVERSTRIPE_ELEMENTAL-TABSET_PATH', __DIR__);
+define('SILVERSTRIPE_ELEMENTAL-TABSET_DIR', basename(__DIR__));
