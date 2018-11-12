@@ -15,6 +15,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "dnadesign/silverstripe-elemental": "^2@dev || ^3@dev",
+        "dnadesign/silverstripe-elemental-list": "1.1@dev",
         "silverstripe/recipe-cms": "^1@dev || ^4@dev",
         "silverstripe/vendor-plugin": "^1@dev"
     },
