@@ -1,0 +1,42 @@
+{
+    "name": "silverstripe-elemental-tabset",
+    "description": "Create a tabbed interface that uses elements",
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "http://www.dynamicagency.com"
+        }
+    ],
+    "keywords": [
+        "silverstripe", "elemental", "tab", "tabset", "list"
+    ],
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "require": {
+        "dnadesign/silverstripe-elemental": "^2@dev || ^3@dev",
+        "dnadesign/silverstripe-elemental-list": "1.1@dev",
+        "silverstripe/recipe-cms": "^1@dev || ^4@dev",
+        "silverstripe/vendor-plugin": "^1@dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\Tabset\\": "src/",
+            "Dynamic\\Elements\\Tabset\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

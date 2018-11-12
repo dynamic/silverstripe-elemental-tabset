@@ -2,29 +2,62 @@
 
 namespace Dynamic\Elements\Tabset\Element;
 
-  use DNADesign\ElementalList\Model\ElementList;
+use DNADesign\ElementalList\Model\ElementList;
 
-  class TabElement extends ElementList {
-
+/**
+ * Class TabElement
+ * @package Dynamic\Elements\Tabset\Element
+ */
+class TabElement extends ElementList
+{
+    /**
+     * @var string
+     */
     private static $table_name = "TabElement";
 
+    /**
+     * @var string
+     */
     private static $singular_name = 'Tab';
+
+    /**
+     * @var string
+     */
     private static $plural_name = 'Tabs';
 
+    /**
+     * @var string
+     */
     private static $controller_template = 'TabElementHolder';
 
-    public function getCMSFields() {
-      $fields = parent::getCMSFields();
-      $fields->removeByName(['FileTracking', 'LinkTracking']);
-      return $fields;
+    /**
+     * @return \SilverStripe\Forms\FieldList
+     */
+    public function getCMSFields()
+    {
+        $fields = parent::getCMSFields();
+
+        $fields->removeByName([
+            'FileTracking',
+            'LinkTracking'
+        ]);
+
+        return $fields;
     }
 
-    public function getType() {
-      return _t(__CLASS__ . '.BlockType', 'Tab');
+    /**
+     * @return string
+     */
+    public function getType()
+    {
+        return _t(__CLASS__ . '.BlockType', 'Tab');
     }
 
-    public function First() {
-      return ($this->Parent()->Elements()->first()->ID === $this->ID);
+    /**
+     * @return bool
+     */
+    public function First()
+    {
+        return ($this->Parent()->Elements()->first()->ID === $this->ID);
     }
-
-  }
+}

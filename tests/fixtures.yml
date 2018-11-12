@@ -1,0 +1,6 @@
+Dynamic\Elements\Tabset\Element\TabElement:
+  one:
+    Title: "Tab Element One"
+Dynamic\Elements\Tabset\Element\ElementTabSet:
+  one:
+    Title: "Tab Set One"
