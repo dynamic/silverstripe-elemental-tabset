@@ -1,4 +1,4 @@
-# Silverstripe Eemental Tabset
+# Silverstripe Elemental Tabset
 
 Create a tabbed interface that uses elements
 
