@@ -1,7 +1,5 @@
 # Silverstripe Elemental Tabset
 
-Create a tabbed interface that uses elements
-
 [![Build Status](https://travis-ci.com/dynamic/silverstripe-elemental-tabset.svg?token=hFT1sXd4nNmguE972zHN&branch=master)](https://travis-ci.com/dynamic/silverstripe-elemental-tabset)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/badges/quality-score.png?b=master&s=2af26be650b06cdd9ec5f9d0f636fcc96fc4b30f)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/badges/coverage.png?b=master&s=d490833fa5b373a56f5ed63058001d6178d3c090)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/?branch=master)
@@ -17,7 +15,8 @@ Create a tabbed interface that uses elements
 
 ## Requirements
 
-- SilverStripe 4.x
+* SilverStripe ^4.0
+* SilverStripe Elemental ^2.0
 
 ## Installation
 
@@ -25,12 +24,20 @@ Create a tabbed interface that uses elements
 
 ## Example usage
 
-You use silverstripe-elemental-tabset like this.
+Create a tabbed interface that uses elements
 
-## Documentation
+### Template Notes
 
-See the [docs/en](docs/en/index.md) folder.
+The default templates are based off [Bootstrap 4](https://getbootstrap.com/) classes/styling.
+
+## Getting more elements
+
+See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#included-blocks)
+
+## Configuration
+
+See [SilverStripe Elemental Configuration](https://github.com/dnadesign/silverstripe-elemental#configuration)
 
 ## Credits
 
-Thanks to [Hels](https://www.github.com/Hels) for sharing the base code for this module
+Thanks to [Hels](https://www.github.com/Hels666) for sharing the base code for this module
