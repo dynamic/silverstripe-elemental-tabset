@@ -3,6 +3,7 @@
 namespace Dynamic\Elements\Tabset\Element;
 
 use DNADesign\ElementalList\Model\ElementList;
+use SilverStripe\ORM\FieldType\DBField;
 
 /**
  * Class TabElement
@@ -10,6 +11,11 @@ use DNADesign\ElementalList\Model\ElementList;
  */
 class TabElement extends ElementList
 {
+    /**
+     * @var string
+     */
+    private static $icon = 'font-icon-block-layout';
+
     /**
      * @var string
      */
@@ -31,6 +37,15 @@ class TabElement extends ElementList
     private static $controller_template = 'TabElementHolder';
 
     /**
+     * Set to false to prevent an in-line edit form from showing in an elemental area. Instead the element will be
+     * clickable and a GridFieldDetailForm will be used.
+     *
+     * @config
+     * @var bool
+     */
+    private static $inline_editable = false;
+
+    /**
      * @return \SilverStripe\Forms\FieldList
      */
     public function getCMSFields()
@@ -43,6 +58,35 @@ class TabElement extends ElementList
         ]);
 
         return $fields;
+    }
+
+    /**
+     * @return DBHTMLText
+     */
+    public function getSummary()
+    {
+        if ($this->Elements()->Elements()) {
+            $ct = $this->Elements()->Elements()->count();
+            if ($ct == 1) {
+                $label = ' block';
+            } else {
+                $label = ' blocks';
+            }
+            return DBField::create_field(
+                'HTMLText',
+                $ct . $label
+            )->Summary(20);
+        }
+    }
+
+    /**
+     * @return array
+     */
+    protected function provideBlockSchema()
+    {
+        $blockSchema = parent::provideBlockSchema();
+        $blockSchema['content'] = $this->getSummary();
+        return $blockSchema;
     }
 
     /**

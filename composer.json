@@ -14,9 +14,9 @@
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "require": {
-        "dnadesign/silverstripe-elemental": "^2@dev || ^3@dev",
-        "dnadesign/silverstripe-elemental-list": "1.1@dev",
-        "silverstripe/recipe-cms": "^1@dev || ^4@dev",
+        "dnadesign/silverstripe-elemental": "^4@dev",
+        "dnadesign/silverstripe-elemental-list": "^1.1@dev",
+        "silverstripe/recipe-cms": "^4@dev",
         "silverstripe/vendor-plugin": "^1@dev"
     },
     "require-dev": {
@@ -36,7 +36,7 @@
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     }
 }
