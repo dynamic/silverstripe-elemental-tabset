@@ -58,7 +58,7 @@ class ElementTabSet extends ElementList
     /**
      * @return DBHTMLText
      */
-    public function getSummary()
+    public function getSummary(): string
     {
         if ($this->Elements()) {
             $ct = $this->Elements()->Elements()->count();
@@ -87,7 +87,7 @@ class ElementTabSet extends ElementList
     /**
      * @return string
      */
-    public function getType()
+    public function getType(): string
     {
         return _t(__CLASS__ . '.BlockType', 'TabSet');
     }
