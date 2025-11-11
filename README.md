@@ -1,10 +1,10 @@
 # Silverstripe Elemental Tabset
 
-[![Build Status](https://travis-ci.com/dynamic/silverstripe-elemental-tabset.svg?token=hFT1sXd4nNmguE972zHN&branch=master)](https://travis-ci.com/dynamic/silverstripe-elemental-tabset)
+[![Build Status](https://travis-ci.com/dynamic/silverstripe-elemental-tabset.svg?token=hFT1sXd4nNmguE972zHN&branch=master)](https://travis-ci.com/dynamic/silverstripe-elemental-tabset) [![Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ff69b4?logo=github)](https://github.com/sponsors/dynamic)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/badges/quality-score.png?b=master&s=2af26be650b06cdd9ec5f9d0f636fcc96fc4b30f)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/badges/coverage.png?b=master&s=d490833fa5b373a56f5ed63058001d6178d3c090)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/badges/build.png?b=master&s=582772ff29b7a7942afebc48ae9efbc3da497709)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-tabset/build-status/master)
-[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-tabset/branch/master/graph/badge.svg?token=xD34nx5QsR)](https://codecov.io/gh/dynamic/silverstripe-elemental-tabset)
+
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-tabset/version)](https://packagist.org/packages/dynamic/silverstripe-elemental-tabset)
 [![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-tabset/v/unstable)](//packagist.org/packages/dynamic/silverstripe-elemental-tabset)
