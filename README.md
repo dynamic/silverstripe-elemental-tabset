@@ -15,9 +15,9 @@
 
 ## Requirements
 
-* silverstripe/recipe-cms: ^4@dev
-* dnadesign/silverstripe-elemental: ^4@dev
-* dnadesign/silverstripe-elemental-list: ^1.1@dev
+* silverstripe/recipe-cms: ^5@dev
+* dnadesign/silverstripe-elemental: ^5@dev
+* dnadesign/silverstripe-elemental-list: 2.0.0-beta1
 
 ## Installation
 
