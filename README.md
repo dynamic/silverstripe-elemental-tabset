@@ -23,6 +23,17 @@
 
 `composer require dynamic/silverstripe-elemental-tabset`
 
+### Also remember to add this code below to your composer.json
+
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thelogicstudio/silverstripe-elemental-tabset"
+        }
+    ],
+```
+
 ## Example usage
 
 Create a tabbed interface that uses elements
